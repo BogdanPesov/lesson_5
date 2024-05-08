@@ -22,6 +22,10 @@ body {
 	text-transform: uppercase;
 }
 
+.main-section {
+	padding-top: 30px;
+}
+
 .main-section__inner {
 	padding: 0 0 10px;
 	max-width: 1290px;
@@ -56,6 +60,7 @@ body {
 }
 
 .main-section2 {
+	padding-top: 30px;
 	font-weight: 400;
 	color: #2b2929;
 }
@@ -74,7 +79,7 @@ body {
 	text-align: center;
 	line-height: 1.20;
 	/* 48/40 */
-	margin: 32px 0;
+	margin: 0 0 30px;
 }
 
 .main-section2__edit .main-section2__img {
@@ -86,7 +91,7 @@ body {
 }
 
 .main-section3 {
-	padding-bottom: 100px;
+	padding: 30px 0 100px;
 }
 
 .main-section3__title {
@@ -98,8 +103,10 @@ body {
 
 .main-section3__inner {
 	font-size: 0;
+	margin-right: -18px;
+
 }
 
-.main-section3__link+.main-section3__link {
-	margin-left: 18px;
+.main-section3__link {
+	margin-right: 18px;
 }
