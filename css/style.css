@@ -1,5 +1,6 @@
 @import url(reset.css);
 @import url(fonts.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
 
 body {
 	background-color: #f8f8f8;
@@ -76,12 +77,6 @@ body {
 	margin: 32px 0;
 }
 
-/* .main-section2__img {
-	max-width: 1070px;
-	max-height: 380px;
-	margin: 10px auto 40px;
-} */
-
 .main-section2__edit .main-section2__img {
 	display: block;
 	max-width: 1070px;
@@ -95,16 +90,16 @@ body {
 }
 
 .main-section3__title {
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: 500;
 	margin-bottom: 60px;
 }
 
 .main-section3__inner {
-
 	font-size: 0;
 }
 
 .main-section3__link+.main-section3__link {
 	margin-left: 18px;
 }
-
-.main-section__img {}
